@@ -28,8 +28,15 @@ nav {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
   font-size: 1.5em;
   font-weight: bold;
+}
+
+.logo-img {
+  height: 40px;
+  margin-right: 10px;
 }
 
 .nav-links {
