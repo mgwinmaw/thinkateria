@@ -59,7 +59,7 @@ nav {
 /* Header Section */
 header {
   padding: 140px 20px 100px;
-  background: linear-gradient(to right, #6b0303, #a33d3d); /* soft gradient */
+  background: url("background.png") no-repeat center center/cover; /* banner image */
   color: #fff;
   text-align: center;
 }
@@ -67,6 +67,7 @@ header {
 header h1 {
   font-size: 2.8em;
   margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5); /* improve text readability */
 }
 
 .cta-button {
@@ -154,6 +155,6 @@ footer {
   }
 
   .logo-img {
-    height: 60px; /* slightly smaller on mobile */
+    height: 60px; /* slightly smaller logo for mobile */
   }
 }
