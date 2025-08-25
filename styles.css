@@ -106,6 +106,24 @@ ul li {
   margin-bottom: 10px;
 }
 
+/* Work Icons */
+.work-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.work-list i {
+  color: #6b0303;
+  min-width: 20px;
+}
+
+/* Align Volunteer CTA */
+.cta-container {
+  margin-top: 20px;
+  text-align: left;
+}
+
 /* Footer */
 footer {
   background-color: #f4f4f4;
