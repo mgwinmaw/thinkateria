@@ -10,7 +10,7 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color: #333;
-  background-color: #fff;
+  background-color: #fdf6f6; /* light tint of theme color */
 }
 
 /* Navbar Styles */
@@ -30,13 +30,13 @@ nav {
 .logo {
   display: flex;
   align-items: center;
-  font-size: 1.5em;
+  font-size: 1.6em;
   font-weight: bold;
 }
 
 .logo-img {
-  height: 40px;
-  margin-right: 10px;
+  height: 60px;   /* bigger logo thumbnail */
+  margin-right: 12px;
 }
 
 .nav-links {
@@ -57,14 +57,14 @@ nav {
 
 /* Header Section */
 header {
-  padding: 120px 20px 80px;
-  background-color: #6b0303;
+  padding: 140px 20px 100px;
+  background: linear-gradient(to right, #6b0303, #a33d3d); /* subtle gradient */
   color: #fff;
   text-align: center;
 }
 
 header h1 {
-  font-size: 2.5em;
+  font-size: 2.8em;
   margin-bottom: 20px;
 }
 
@@ -115,7 +115,8 @@ ul li {
 
 .work-list i {
   color: #6b0303;
-  min-width: 20px;
+  min-width: 22px;
+  font-size: 1.2em;
 }
 
 /* Align Volunteer CTA */
