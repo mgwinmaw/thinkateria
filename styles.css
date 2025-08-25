@@ -10,7 +10,7 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color: #333;
-  background-color: #fdf6f6; /* light tint of theme color */
+  background-color: #fdf6f6; /* soft theme tint */
 }
 
 /* Navbar Styles */
@@ -35,10 +35,11 @@ nav {
 }
 
 .logo-img {
-  height: 60px;   /* bigger logo thumbnail */
-  margin-right: 12px;
+  height: 80px;   /* bigger logo */
+  margin-right: 15px;
 }
 
+/* Nav links */
 .nav-links {
   list-style: none;
   display: flex;
@@ -58,7 +59,7 @@ nav {
 /* Header Section */
 header {
   padding: 140px 20px 100px;
-  background: linear-gradient(to right, #6b0303, #a33d3d); /* subtle gradient */
+  background: linear-gradient(to right, #6b0303, #a33d3d); /* soft gradient */
   color: #fff;
   text-align: center;
 }
@@ -150,5 +151,9 @@ footer {
 
   .nav-links li {
     margin-bottom: 10px;
+  }
+
+  .logo-img {
+    height: 60px; /* slightly smaller on mobile */
   }
 }
